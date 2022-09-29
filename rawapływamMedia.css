@@ -280,9 +280,7 @@
     
       @media(max-width:1200px){
     
-       body{
-        background-color: blue;
-       }
+       
         html{
             font-size: 40.5%;
             
@@ -548,9 +546,7 @@
     
       @media(max-width:780px){
     
-    body{
-        background-color: cadetblue;
-    }
+    
 
     header{
         height: 12rem;
@@ -1469,10 +1465,7 @@ font-weight: 500;
             font-size: 35.5%;
            
         }
-        body{
-            background-color: blue;
-        }
-      
+        
      
         
         
