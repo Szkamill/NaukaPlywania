@@ -270,264 +270,370 @@
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-      @media(max-width:1200px){
-    
-       
-        html{
-            font-size: 40.5%;
+    @media(max-width:1200px) {
+
+
+        header{
+            
+            grid-template-columns: 45fr 55fr;
             
         }
-    
-      
-        .img-title{
-            width: 90%;
-           
-            
+        .logo-header{
+            display: inline-block;
+            width: 8rem;
+            margin-left: 5rem;
             
         }
        
-        /*////////////////////////////////////////////////////////////////////////////*/
-        /*main section Why*/
-        
-        
+        .ul-nav-header li {
+            font-size: 2rem;
+            font-weight: 600;
+            transition: 0.2s;
+            transition: transform 1s, opacity 1s;
+            row-gap: 2rem;
+        }
+        .ul-nav-header li:last-of-type{
+            margin-right: 5rem;
+        }
+ 
+        .section-first-title{
+              
+              gap: 2rem;
+             
+             
+          }
+          
+          .title-section-first p{
+             line-height: 5rem;
+              padding-top: 3rem;
+          }
+          .first-secion-span{
+             
+              margin-top: 2rem;
+             
+          }
+          
+          #title-span-first-section
+{ 
+    font-size: 5rem;
+    font-weight: 600;
+    /* background-color: bisque; */
+   
+}
+
+
+
+
           
       
-        
+          /*////////////////////////////////////////////////////////////////////////////*/
+          /*main section Why*/
+          
+         
         .description-odd{
-           
+            
             font-size: 2rem;
             
             
         }
         .description-odd p{
-            
-            line-height: 30px;
+           
+            line-height: 32px;
         }
+        
+        .img-odd img{
+            
+            width: 45rem;
+            
+        }
+        
         
        
         
-        
-        
-        
         .description-even{
             
-             font-size: 2.2rem;
-            
+           
+             font-size: 2rem;
              
         }
         
         
         .description-even p{
-            
-            line-height: 30px;
-        }
-        
-        
-        
-        
-        
-        
-        .span-p{
-            letter-spacing: 2px;
-        }
-        
-        
-        
-        
-        /* ///////////////////////////////////////////////////////////////////
-                                section thrid */
-
-
-
-.ul-descritpion-for-who li{
-    font-size: 2.5rem;
-    
-}
-             /* /////////////////////////////////////////////////////////// */
-             /* four */
-             .operations__tab {
-               
-                height: 4rem;
-                
-                font-size: 3rem;
-                
-            
-              }
-              
-              
-              
-            
-              
-            
-            
-              /*  */
-              
-             
-              
-              
-            
-
-               
-              .operations__header {
-                font-size: 4rem;
-                
-              }
-          
-          
-        
-           
-        /* //////////////////////////////////////////////
-        sekcja cost
-        */
-        
-        .cost{
-            height: auto;
-            
-        background-color: white;
-        
-        }
-        .cost-section{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            grid-row: 1fr 1fr;
-            padding-bottom: 22rem;
-          padding-left: 4rem;
-            gap: 1rem;
-           
-            
-            
-      
-           
-        }
-        .cost-div{
-            
-            margin-top: 12rem;
-            
-            width: 25rem;
          
-            
+            line-height: 32px;
+        }
         
+        .img-even img{
             
+            width: 45rem;
+            background-color: #994936;
             
         }
-      
-          /* ///////////////////////////////////////////////////////// */
         
-          .five{
-              height: 100vh;
-             background-color: white;
-          }
-          .contact-section{
+          
+          
+          /* ///////////////////////////////////////////////////////////////////
+                                  section thrid */
+          
+          
+                                  .img-for-who{
+                                    width: 80%;
+                                    
+                                    
+                                    margin: 0 auto 0 auto;
+                                    }
         
-              padding-top: 12rem;
-              display: flex;
-              gap: 3rem;
-              margin: 0 auto 0 auto;
-          }
-          .contact{
-            margin: 0 auto 0 auto;
-    
-              display: flex;
-        flex-direction: column;
-              border: 1px solid black;
-              width: 60rem;
-              height: 70rem;
-              border-radius: 10px;
-            box-shadow: 10px 7px 20px -10px rgba(66, 68, 90, 1);
-        
-          }
-          form{
-              margin-top: 5rem;
-             display: flex;
-             flex-direction: column;
-             gap: 3rem;
-             width: 40rem;
-             margin-left: 4rem;
-             
-              
-          }
-          form input{
-              font-size: 2rem;
-              height: 6rem;
-          }
-          textarea{
-              font-size: 2rem;
-              height: 6rem;
-        
-          }
-          .btn-message{
-              width: 20rem;
-              margin-bottom: 10rem;
-              border-radius: 10px;
-              height: 4rem;
-              background-color: #c7473cd0;
-              color: white;
-              border: none;
-            box-shadow: 10px 7px 20px -10px rgba(66, 68, 90, 1);
-            transform: translateX(150px);
-        
-          }
-          .btn-message:hover{
-              opacity: 0.8;
-          }
-          .socials{
-              transform: translateY(-50px);
-              
-          }
-          .social{
-              margin-bottom: 10px;
-              margin-left: 30px;
-          }
-          .social a{
-              padding-left: 5px;
-              font-size: 1.6rem;
-              text-decoration: none;
-              color: blue;
-              
-              
-          }
-          .social img{
-              width: 30px;
-              transform: translateY(10px);
+               /* /////////////////////////////////////////////////////////// */
+          
+          
+
+
+               .when-h1{
+                font-size: 3rem;
+                color: black;
+            }
                
-          }
-        
-          .mapa{
-             display: flex;
-             flex-direction: column;
-             width: 55rem;
-             gap: 2rem;
-             border: 1px solid rgb(0, 0, 0);
-             border-radius: 10px ;
-             box-shadow: 10px 7px 20px -10px rgba(66, 68, 90, 1);
-             margin-right: 6rem;
-             overflow: hidden;
-        
-        
+                 
+            
+              .operations {
+                
+                /* margin: 2rem auto 0 auto; */
+                padding-top: 7rem;
+                
+                /* display: grid; */
+                
+              
+            
+                
+              }
+              
+              .operations__tab-container2 {
+               
+               display: flex;
+               justify-content:space-around;
+               margin-left: 2rem;
+               margin-right: 2rem;
              
+              
+               
+                
+              }
+              
+              
+
+
+          /* //////////////////////////////////////////////
+          sekcja cost
+          */
+          
+          .cost-section{
+            display: flex;
+            gap:10px ;
+            margin-left: 3rem;
+            margin-right: 3rem;
+        }
+          
+          
+          .cost-div{
+           
+              padding-top: 2rem;
+              border: 1px solid black;
+              width: 40rem;
+              height: 35rem;
+              
+              
              
+          
+              
+              
           }
-          /*  */
+          
+          
+          .cost-of-type{
+              font-size: 1.8rem;
+              font-weight: 600;
+              margin-bottom: 3rem;
+              
+          
+          }
+          .time-description{
+              font-size: 1.5rem;
+              margin-bottom: 2rem;
+          }
+          
+          .cost-time{
+              font-size: 1.7rem;
+              font-weight: 500;
+              margin-bottom: 0rem;
+              
+          
+          }
+          .cost-enter{
+              font-size: 1.4rem;
+              font-weight: 600;
+              margin-top: 4rem;
+          
+          }
+          
+            /* ///////////////////////////////////////////////////////// */
+          
+            .five{
+                height: 100vh;
+               background-color: white;
+               
+            }
+            .contact-section{
+          
+                padding-top: 4rem;
+                display: flex;
+                gap: 10rem;
+                
+            }
+            .contact{
+                
+          
+                width: 55rem;
+                height: 55rem;
+              margin-left: 3rem;
+          
+            }
+            form{
+                margin-top: 3rem;
+               display: flex;
+               flex-direction: column;
+               gap: 3rem;
+               width: 40rem;
+               margin-left: 3rem;
+               margin-right: 2rem;
+               
+                
+            }
+            form input{
+                font-size: 1.8rem;
+                height: 3rem;
+            }
+            textarea{
+                font-size: 1.8rem;
+                height: 4rem;
+          
+            }
+            .btn-message{
+               
+              
+              transform: translateX(200px);
+          
+            }
+            .btn-message:hover{
+                opacity: 0.8;
+            cursor: pointer;
+            }
+            .socials{
+                transform: translateY(-50px);
+            }
+            .social{
+                margin-bottom: 10px;
+                margin-left: 20px;
+            }
+            .social a{
+                padding-left: 5px;
+                font-size: 1.2rem;
+                text-decoration: none;
+                color: blue;
+                
+                
+            }
+            .social img{
+                width: 30px;
+                transform: translateY(10px);
+                 
+            }
+          
+            .mapa{
+               display: flex;
+               flex-direction: column;
+               height: 55rem;
+              margin-right: 3rem;
+          
+          
+               
+               
+            }
+            .mapa-direction{
+                font-size: 1.8rem;
+                text-align: center;
+                margin-top: 2rem;
+                font-weight: 600;
+                letter-spacing: 1px;
+            }
+            iframe{
+                width: auto;
+                height: 50rem;
+            }
+          
+            footer{
+               
+                border-top: 3px solid black;
+                background-color: white;
+                padding-bottom: 2rem;
+                margin-bottom: 0rem;
+          
+            }
+            .fotter-direction{
+                padding-top: 1rem;
+              font-size: 1.6rem;
+                text-align: center;
+                line-height: 2rem;
+                font-weight: 600;
+            }
+          
+          }
+          
+    
+    
+    
+    
+     /* @TODO30.09.2022 zrobić do 940px */
+    
+    
+    
+  
+     @media(max-width:950px) {
+        html{
+            font-size: 50%;
+        }
+
+      
+          
+          /* ///////////////////////////////////////////////////////////////////
+                            
+        
+               /* /////////////////////////////////////////////////////////// */
+          
+          
+
+
+              
+
+
+          /* //////////////////////////////////////////////
+          sekcja cost
+          */
           
         
+            .btn-message{
+               
+              
+              transform: translateX(150px);
           
-        
-    
-      }
-    
-    
-    
-    
-    
-    
+            }
+            .btn-message:hover{
+                opacity: 0.8;
+            cursor: pointer;
+            }
+           
+          
+          }
+          
     
     
     
@@ -546,7 +652,7 @@
     
       @media(max-width:780px){
     
-    
+   
 
     header{
         height: 12rem;
@@ -627,7 +733,8 @@
             border-radius: 10px;
             height: fit-content;
             width: max-content;
-            transform: translateY(7rem);
+            transform: translateY(2rem);
+            margin-bottom: 5rem;
             
             
         }
@@ -641,8 +748,11 @@
         
         .img-odd img{
             border-radius: 20px;
-            width: 40rem;
+            width: 30rem;
             margin-right: 5rem;
+            
+          
+            
         }
         
         
@@ -657,11 +767,12 @@
            
              font-size: 1.8rem;
              margin-right: 5rem;
+             margin-bottom: 5rem;
             /* background-color: #F5DBBC; */
              
              border-radius: 10px;
              height: fit-content;
-             transform: translateY(7rem);
+             transform: translateY(2rem);
              
              
         }
@@ -679,7 +790,7 @@
         
         .img-even img{
             border-radius: 20px;
-            width: 35rem;
+            width: 30rem;
             margin-left: 5rem;
             transform: translateY(34px);
         }
@@ -693,22 +804,19 @@
         }
         
         /* ///////////////////////////////////////////////////////////////////
-                                section thrid */
-                                .kids{
-                                    /* border: 1px solid black; */
-                                    width: 40vw;
-                                    height: 68vh;
                                 
-                                
-                                }
-                                .adults{
-                                    /* border: 1px solid black; */
-                                    width: 40vw;
-                                    height: 68vh;
-                                  
-                                
-                                
-                                }
+        /* who */
+                 .img-for-who2{
+               display: inline-block;
+                }
+                .img-for-who{
+                    display: none;
+                }
+                .img-for-who2{
+                    width: auto;
+                    height:40vh;
+                    margin: 0 auto 10rem auto;
+                    }
        
         
              /* /////////////////////////////////////////////////////////// */
@@ -735,6 +843,18 @@
         
             
           }
+          .operations__tab {
+            
+            height: 5rem;
+            font-size: 2.4rem;
+            padding: 10px;
+            line-height: 2.5rem;
+           
+  
+           
+           
+        
+          }
           
           
         
@@ -742,28 +862,85 @@
         /* //////////////////////////////////////////////
         sekcja cost
         */ 
+        .cost{
+            height:auto;
+        background-color: white;
+        
+        }
         .cost-section{
+            
+
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr ;
-            grid-row: 1fr 1fr;
-            padding-bottom: 22rem;
-          padding-left: 4rem;
-            gap: 1rem;
+            grid-template-columns: 1fr 1fr   ;
+            
            
             
+            padding-bottom: 0rem;
+          padding-left: 0rem;
+            gap: 0rem;
+            margin-left: 9rem;
+           
+           
+           
             
       
            
         }
-        .cost-div:last-of-type{
+
+
+        
+        
+        .cost-div{
             
-            grid-column: 3 / 4;
-         
+            margin-left: 4rem;
+            padding-top: 6rem;
+            
+            width: 30rem;
+            height: 35rem;
             
         
             
             
         }
+      
+        .cost-div:last-of-type{
+           
+         transform: translateX(150px);
+        }
+        
+        .cost-of-type{
+            font-size: 2.4rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+
+            
+        
+        }
+        .time-description{
+            font-size: 2.2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .cost-time{
+            font-size: 1.8rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+            
+        
+        }
+        .cost-enter{
+            font-size: 2rem;
+            font-weight: 600;
+          
+        
+        }
+        .description-p{
+            padding-top: 3rem;
+            font-size: 2.2rem;
+            font-weight: 800;
+            text-align: center;
+        }
+       
         
        
           /* ///////////////////////////////////////////////////////// */
@@ -778,7 +955,7 @@
           .contact{
           
               width: 50rem;
-              height: 70rem;
+              height: 68rem;
              
         
           }
@@ -818,21 +995,26 @@
           }
           .social a{
               padding-left: 5px;
-              font-size: 1.4rem;
+              font-size: 1.2rem;
              
               
               
           }
           .social img{
-              width: 30px;
-              transform: translateY(10px);
+              width: 25px;
+              transform: translate(-10px, 10px)
+
+             
                
           }
         
           .mapa{
            
              width: 45rem;
+             height: 68rem;
              gap: 2rem;
+             margin-right: 2rem;
+
            
         
         
@@ -840,7 +1022,7 @@
              
           }
           .mapa-direction{
-              font-size: 1.8rem;
+              font-size: 1.6rem;
              
           }
           iframe{
@@ -867,6 +1049,332 @@
     
     
     
+
+
+
+
+
+      /* @media(max-width:680px){
+    
+   
+
+        header{
+            height: 12rem;
+           
+            
+            display: grid;
+            grid-template-columns: 55fr 45fr;
+            
+        }
+        .logo-header{
+            display: inline-block;
+            width:12rem ;
+            margin-top: 2rem;
+            margin-left: 10rem;
+            
+        }
+        .ul-nav-header{
+            display: none;
+           
+            
+        }
+        
+        
+        html{
+                font-size: 45%;
+               
+            } */
+            /* //////////////////////////////////////////////////////////////////////////// */
+        
+            /* .section-first{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+            }
+            .section-first-title{
+            
+                gap: 0rem;
+                grid-row: 1/3;
+                grid-column: 1/3;
+                
+                
+               
+               
+            }
+            
+            
+           
+            #title-span-first-section{
+                font-size: 4rem;
+            }
+
+            .title-section-first p{
+                text-align: left;
+                letter-spacing: -1px;
+                line-height: 5rem;
+                align-items: center;
+                font-size: 4rem;
+                font-weight: 600;
+                padding-top: 12rem;
+                
+                width: 400px;
+                
+            }
+            .first-secion-span{
+                display: inline-block;
+                line-height: 4rem;
+                margin-top: 4rem;
+                align-items: center;
+                font-size: 3rem;
+                font-weight: 500;
+                width: 500px;
+               
+            }
+            
+            .btn-title-section-first{
+                display: none;
+               
+        
+               
+            }
+            .img-section-first{
+               position: relative;
+               z-index: -1;
+                grid-column: 2/4;
+                grid-row: 2/4;
+                
+                
+            }
+            */
+            /*////////////////////////////////////////////////////////////////////////////*/
+            /*main section Why*/
+            
+            
+/*             
+            .second h1{
+                text-align: center;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+                font-size: 20px;
+                letter-spacing: 2.5px;
+            }
+            .secont-section-why {
+                display: flex;
+                flex-direction: column;
+               
+                
+               
+                
+              
+                
+                
+            }
+            .odd{
+                display: flex;
+               
+                height: 40%;
+               
+                
+            }
+            .description-odd{
+                
+                font-size: 1.8rem;
+                margin-left: 10rem;
+                margin-top: 2rem;
+                
+                border-radius: 10px;
+                height: fit-content;
+                width: max-content;
+                transform: translateY(2rem);
+                margin-bottom: 5rem;
+                
+                
+            }
+            .description-odd p{
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
+                line-height: 30px;
+            }
+            
+            .img-odd img{
+                border-radius: 20px;
+                width: 30rem;
+                margin-right: 5rem;
+                
+              
+                
+            }
+            
+            
+            .even{
+                display: flex;
+              
+            height: auto;
+            }
+            
+            .description-even{
+                margin-top: 2rem;
+               
+                 font-size: 1.8rem;
+                 margin-right: 5rem;
+                 margin-bottom: 5rem;
+                
+                 
+                 border-radius: 10px;
+                 height: fit-content;
+                 transform: translateY(2rem);
+                 
+                 
+            }
+            .mental-improvement:last-of-type{
+            padding-bottom: 10rem;
+            }
+            
+            .description-even p{
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
+                line-height: 30px;
+            }
+            
+            .img-even img{
+                border-radius: 20px;
+                width: 30rem;
+                margin-left: 4rem;
+                transform: translateY(34px);
+            }
+        
+            
+            
+            
+            
+            .span-p{
+                letter-spacing: 2px;
+            }
+            
+            /* ///////////////////////////////////////////////////////////////////
+                                    
+            /* who */
+                   
+                    /* .img-for-who2{
+                        width: 100%;
+                        height:40vh;
+                        margin: 0 auto;
+                       
+                        }
+            */
+            
+                 /* /////////////////////////////////////////////////////////// */
+         /* .cost-section{
+            width: 90%;
+            margin: 0 auto;
+         } */
+              /* ///////////////////////////////////////////////////////// */
+            
+             
+              /* .contact-section{
+            
+                  padding-top: 12rem;
+                  
+                  
+              }
+              .contact{
+              
+                  width: 40rem;
+                  height: 60rem;
+                 
+            
+              }
+              form{
+                  margin-top: 5rem;
+                 
+                 gap: 3rem;
+                 width: 30rem;
+                 margin-left: 4rem;
+                 
+                  
+              }
+              form input{
+                  font-size: 1.5rem;
+                  height: 3rem;
+              }
+              textarea{
+                  font-size: 2rem;
+                  height: 4rem;
+            
+              }
+              .btn-message{
+                  
+                 
+                transform: translateX(100px);
+            width: 120px;
+            font-size: 1.5rem;
+              }
+             
+              .socials{
+                  transform: translateY(-50px);
+              }
+              .social{
+                  margin-bottom: 10px;
+                  margin-left: 15px;
+              }
+              .social a{
+                  padding-left: 0px;
+                  font-size: 1.2rem;
+                 
+                 
+                  
+                  
+              }
+              
+              .social img{
+                  width: 25px;
+                  transform: translate(-10px, 10px)
+    
+                 
+                   
+              }
+            
+              .mapa{
+               
+                 width:45%;
+                 height: 60rem;
+                 gap: 2rem;
+                 margin-right: 4rem;
+    
+               
+            
+            
+                 
+                 
+              }
+              .mapa-direction{
+                  font-size: 1.6rem;
+                 
+              }
+              iframe{
+                 
+                  
+                  height: 60rem;
+              }
+            
+              footer{
+                  height: 10vh;
+                  
+              }
+              .fotter-direction{
+                  padding-top: 1rem;
+                font-size: 1.6rem;
+                
+              }
+            
+        
+          } */
+        
+        
     
     
     
@@ -886,92 +1394,71 @@
     
       @media(max-width:600px) {
         html{
-            font-size: 35.5%;
+            font-size: 40.5%;
            
         }
       
      
         
-        
-     .section-first{
-     display: none;
-      
-    }
-
-
-
-   .section-first2{
-    height: 90vh;
-    display:grid;
-    grid-template-rows: 6fr 1fr;
-
-    
-}
-.title-section-first{
-    display:grid;
-
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr ;
-       }
-
-
-    .section-first-title{
-        padding-left: 10rem;
-        display: block;
-        grid-row: 1/2;
-        
-    }
-     
-       
-    #title-span-first-section
-        {
-font-weight: 500;
+        .section-first{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
         }
-    .title-section-first p{
+        .section-first-title{
+        
+            gap: 0rem;
+            grid-row: 1/3;
+            grid-column: 1/3;
+            
+            
+           
+           
+        }
+        
+        
        
-        font-size: 5rem;
-        font-weight: 500;
-        grid-row: 1/2;
+        #title-span-first-section{
+            font-size: 4rem;
+        }
 
-       
+        .title-section-first p{
+            text-align: left;
+            letter-spacing: -1px;
+            line-height: 5rem;
+            align-items: center;
+            font-size: 4rem;
+            font-weight: 600;
+            padding-top: 12rem;
+            
+            width: 400px;
+            
+        }
+        .first-secion-span{
+            display: inline-block;
+            line-height: 4rem;
+            margin-top: 4rem;
+            align-items: center;
+            font-size: 3rem;
+            font-weight: 500;
+            width: 500px;
+           
+        }
         
-    }
+        .btn-title-section-first{
+            display: none;
+           
     
-    
-    .first-secion-span{
-        display: inline-block;
-        line-height: 4rem;
-        margin-top: 4rem;
-        align-items: center;
-        font-size: 3rem;
-        font-weight: 500;
-        grid-row: 3/4;
-
-    }
-    
-    .btn-title-section-first{
-        display: inline-block;
-        width: 50%;
-        padding: 1rem;
-        font-size: 2rem;
-       transform: translate(120px ,-100px);
-       
-     
-       
-    }
-   
-    
-    .img-section-first{
-       
-        grid-row: 2/3;
-        width: 300px;
-        height: 180px;
-        
-      
-        
-        
-    }
-    
+           
+        }
+        .img-section-first{
+           position: relative;
+           z-index: -1;
+            grid-column: 2/4;
+            grid-row: 2/4;
+            
+            
+        }
         /*////////////////////////////////////////////////////////////////////////////*/
         /*main section Why*/
         
@@ -980,24 +1467,27 @@ font-weight: 500;
         
         .odd{
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr  ;
-            /* border: 1rem solid black; */
-            height: auto;
-            padding-bottom: 10rem;
+            grid-template-columns: 1fr 1fr ;
+            
+            
+            
+            padding-bottom: 12rem;
             
         }
         .description-odd{
+            position: relative;
+            z-index: 1;
             color:#994936;
             font-size: 2.5rem;
             margin-left: 2rem;
             margin-top: 2rem;
+
             
             
-            width: 220px;
+            width: 400px;
             
-            grid-row: 1/2;
-            grid-column: 1/2;
+            
+          
 
     
 
@@ -1011,14 +1501,25 @@ font-weight: 500;
             line-height: 22px;
             
         }
+       
         
         .img-odd img{
             border-radius: 20px;
             width: 40rem;
+            grid-column: 2/3;
+          
+            position: relative;
+            transform: translate(-100px, 90px);
+            z-index: 0;
             
             
             
         }
+        .img-odd img:last-child{
+            transform: translate(-130px, 90px);
+        }
+
+        
         
         
         .even{
@@ -1027,7 +1528,7 @@ font-weight: 500;
             grid-template-rows: 1fr  ;
             /* border: 1rem solid black; */
         height: auto;
-        margin-bottom: 10rem;
+        margin-bottom: 0;
         }
         
         .description-even{
@@ -1035,13 +1536,14 @@ font-weight: 500;
             color:#994936;
            
              font-size: 2.5rem;
-             margin-right: 0rem;
+             margin-bottom: 20rem;
+             
             /* background-color: #F5DBBC; */
              
-            width: 200px;
-            
-            grid-row: 1/2;
-            grid-column: 2/3;
+            width: 400px;
+            position: relative;
+            z-index: 0;
+            transform: translateX(-150px);
              
         }
         .mental-improvement:last-of-type{
@@ -1060,6 +1562,11 @@ font-weight: 500;
             border-radius: 20px;
             width: 40rem;
             margin-left: -3rem;
+            position: relative;
+            z-index: 0;
+            transform: translate(-10px,120px);
+            
+            
         }
         
         
@@ -1075,84 +1582,17 @@ font-weight: 500;
         /* ///////////////////////////////////////////////////////////////////
                                 section thrid */
         
+       .third-page{
+        height: auto;
+       }
+                            
+        .img-for-who2{
+            margin-left: -1rem;
+            width: 100%;
+            height: fit-content;
+        }
+        
        
-                                .third-page{
-                                    height: auto;
-                               
-                                }
-        .third-section-who {
-            
-            display: flex;
-         flex-direction: column;
-           
-         
-            
-        }
-        .third-section-who h1{
-        font-size: 3rem;
-        font-weight: 600;
-        margin-bottom: 2rem;
-        margin-top: 2rem;
-        }
-        .kids{
-            /* border: 1px solid black; */
-            width: 55vw;
-            height: 50vh;
-           
-            margin: 0 auto 0 auto;
-            margin-bottom: 10rem;
-        
-        }
-        .adults{
-            /* border: 1px solid black; */
-            margin: 0 auto 0 auto;
-    
-            width: 55vw;
-            height: 50vh;
-            
-            margin-bottom: 10rem;
-        
-           
-        
-        
-        }
-        
-        .img-for-who{
-            width: 70%;
-            text-align: center;
-        }
-        .description-for-who
-        { display: inline-block;
-            font-size:2.5em;
-            font-weight: 600;
-            /* border: 1px solid black; */
-            box-shadow: 10px 7px 20px -16px rgba(66, 68, 90, 1);
-            border-radius: 10px;
-            height: 8rem;
-            width: 30rem;
-            text-align: center;
-            line-height: 0rem;
-            margin-top: 20px;
-            margin-bottom: 2rem;
-            /* background-color: white; */
-        
-        }
-        .adults-p{
-            line-height: 4rem;
-        }
-        
-        
-        .ul-descritpion-for-who{
-            list-style: none;
-            
-        }
-        .ul-descritpion-for-who li{
-            font-size: 2.4rem;
-            margin-top: 10px;
-            text-align: center;
-            /* background-color:white; */
-            
-        }
         
              /* /////////////////////////////////////////////////////////// */
         .four{
@@ -1170,7 +1610,8 @@ font-weight: 500;
           .operations {
             max-width: 100%;
             /* margin: 2rem auto 0 auto; */
-            padding-top: 10rem;
+            padding-top: 6rem;
+            
             
             /* display: grid; */
             
@@ -1199,11 +1640,11 @@ font-weight: 500;
             color:black;
             height: 5rem;
             width: 10rem;
-            font-size: 3.2rem;
-            background-color: white;
-            border-radius: 10px;
+            font-size: 2.5rem;
+            line-height: 2rem;
+            
             width: 20rem;
-            box-shadow: 20px 7px 20px -9px rgba(66, 68, 90, 1);
+            
         
           }
           table{
@@ -1224,13 +1665,11 @@ font-weight: 500;
         } */
         
        .operations__header {
-         font-size: 4rem;
+         font-size: 3rem;
          padding-top: 4rem;
-         font-weight: 500;
-         font-family: cursive;
-         align-self: center;
-         justify-self: center;
-         text-align: center;
+         font-weight: 400;
+         
+        
        }
           
           
@@ -1251,6 +1690,7 @@ font-weight: 500;
             flex-direction: column;
          
             padding-bottom: 5rem;
+            margin: 0 auto;
       
            
         }
@@ -1266,34 +1706,34 @@ font-weight: 500;
             
             
         }
-        .cost-div:nth-of-type(odd){
-            background-color: bisque;
-           
+       
+        .cost-div:last-of-type{
+            transform: none;
         }
         
         .cost-of-type{
-            font-size: 3.4rem;
+            font-size: 2.5em;
             font-weight: 600;
-            margin-bottom: 6rem;
+            margin-bottom: 4rem;
             
         
         }
         .time-description{
-            font-size: 3.2rem;
+            font-size: 2.2rem;
             margin-bottom: 2rem;
         }
         
         .cost-time{
-            font-size: 2.8rem;
+            font-size: 2.4rem;
             font-weight: 500;
             margin-bottom: 2rem;
             
         
         }
         .cost-enter{
-            font-size: 3rem;
+            font-size: 2.4rem;
             font-weight: 600;
-            margin-top: 5rem;
+            margin-top: 4rem;
         
         }
        
@@ -1317,40 +1757,19 @@ font-weight: 500;
               display: flex;
               flex-direction: column;
               gap: 10rem;
+              margin: 0 auto;
           }
         
           .contact{
-              height: 80rem;
+              height: 70rem;
+              margin: 0 auto;
+
           }
-          form{
-              margin-top: 5rem;
-             display: flex;
-             flex-direction: column;
-             gap: 3rem;
-             width: 40rem;
-             margin-left: 3rem;
-             
-              
-          }
-          form input{
-              font-size: 2rem;
-              height: 6rem;
-          }
-          textarea{
-              font-size: 2rem;
-              height: 6rem;
         
-          }
+        
           .btn-message{
-              width: 20rem;
-              margin-bottom: 10rem;
-              border-radius: 10px;
-              height: 4rem;
-              background-color: #c7473cd0;
-              color: white;
-              border: none;
-            box-shadow: 10px 7px 20px -10px rgba(66, 68, 90, 1);
-            transform: translateX(100px);
+              
+            transform: translateX(140px);
         
           }
          
@@ -1398,31 +1817,7 @@ font-weight: 500;
              
              
           }
-          .mapa-direction{
-              font-size: 1.8rem;
-              text-align: center;
-              margin-top: 2rem;
-              font-weight: 600;
-              letter-spacing: 1px;
-          }
-          iframe{
-              width: auto;
-              height: 60rem;
-          }
-        
-          footer{
-              height: 10vh;
-              border-top: 3px solid black;
-              background-color: white;
-        
-          }
-          .fotter-direction{
-              padding-top: 1rem;
-            font-size: 2.6rem;
-              text-align: center;
-              line-height: 3rem;
-              font-weight: 600;
-          }
+          
         
         }
 
@@ -1460,7 +1855,7 @@ font-weight: 500;
         
         
         
-          @media(max-width:340px) {
+          @media(max-width:440px) {
         html{
             font-size: 35.5%;
            

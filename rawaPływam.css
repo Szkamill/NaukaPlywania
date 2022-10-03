@@ -289,8 +289,21 @@ font-weight: 600;
 margin-bottom: 2rem;
 margin-top: 2rem;
 }
-.kids{
-    /* border: 1px solid black; */
+
+.img-for-who{
+width: auto;
+height:50vh;
+margin: 0 auto 10rem auto;
+}
+.img-for-who2{
+    display: none;
+}
+.img-for-who3{
+    display: none;
+}
+
+/* .kids{
+    
     width: 35vw;
     height: 70vh;
     display: flex;
@@ -303,7 +316,7 @@ margin-top: 2rem;
 
 }
 .adults{
-    /* border: 1px solid black; */
+    
     width: 35vw;
     height: 70vh;
     display: flex;
@@ -311,7 +324,7 @@ margin-top: 2rem;
 align-items: center;
 border: 10px solid bisque;
 border-radius: 10px;
-/* background-color: #ffe4c4; */
+
 box-shadow: 10px 7px 20px -16px rgba(66, 68, 90, 1);
 
 
@@ -324,7 +337,7 @@ box-shadow: 10px 7px 20px -16px rgba(66, 68, 90, 1);
 .description-for-who
 { display: inline-block;
     font-size: 3.5rem;
-    /* border: 1px solid black; */
+    
     box-shadow: 10px 7px 20px -16px rgba(66, 68, 90, 1);
     border-radius: 10px;
     height: 12rem;
@@ -333,7 +346,7 @@ box-shadow: 10px 7px 20px -16px rgba(66, 68, 90, 1);
     line-height: 12rem;
     margin-top: 20px;
     margin-bottom: 2rem;
-    /* background-color: white; */
+   
 
 }
 .adults-p{
@@ -348,14 +361,14 @@ box-shadow: 10px 7px 20px -16px rgba(66, 68, 90, 1);
     font-size: 1.8rem;
     margin-top: 20px;
     text-align: center;
-    /* background-color:white; */
+    
     box-shadow: 10px 7px 20px -16px rgba(66, 68, 90, 1);
     border-radius: 10px;
     display: block;
     height: 5rem;
     width: 35rem;
     line-height: 5rem;
-}
+} */
 
      /* /////////////////////////////////////////////////////////// */
 .four{
@@ -373,7 +386,8 @@ box-shadow: 10px 7px 20px -16px rgba(66, 68, 90, 1);
   .operations {
     max-width: 100%;
     /* margin: 2rem auto 0 auto; */
-    padding-top: 10rem;
+    padding-top: 6rem;
+    
     
     /* display: grid; */
     
@@ -406,6 +420,7 @@ box-shadow: 10px 7px 20px -16px rgba(66, 68, 90, 1);
     width: 20rem;
     box-shadow: 20px 7px 20px -9px rgba(66, 68, 90, 1);
 
+
   }
   
   
@@ -415,6 +430,7 @@ box-shadow: 10px 7px 20px -16px rgba(66, 68, 90, 1);
   .operations__tab--active {
     transform: translateY(20%);
     box-shadow: none;
+    background-color: antiquewhite;
   }
 
   /*  */
@@ -434,7 +450,11 @@ box-shadow: 10px 7px 20px -16px rgba(66, 68, 90, 1);
     flex-direction: column;
    gap: 5rem;
   }
+  .btn.operations__tab{
+cursor: pointer;
 
+
+  }
    /* wyglad tabeli */
    table{
        
