@@ -1654,13 +1654,17 @@
                                     section thrid */
             
            .third-page{
-            height: auto;
+            height: 100vh;
            }
                                 
             .img-for-who2{
-                margin-left: -5rem;
-                width: 120%;
+            display: none;
                 
+            }
+            .img-for-who3{
+                display: inline-block;
+                width: 40rem;
+                margin: 0 auto 10rem auto;
             }
             
            
