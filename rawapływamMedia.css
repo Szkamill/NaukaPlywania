@@ -1527,7 +1527,8 @@
 
 
 
-        /* /* ////////////////////////////////////////////////////////////// */
+        /* /* ////////////////////////////////////////////////////////////// */ 
+        /* do poprawy */
         
         @media(max-width:500px) {
             html{
@@ -1573,13 +1574,12 @@
             /*main section Why*/
             
             
-            
-            
+           
             
             .description-odd{
                 
     
-              font-size: 2.2rem;
+              font-size: 2rem;
                 
                 
                 width: 50rem; }
@@ -1589,18 +1589,24 @@
            
             
            
-            .img-odd img:last-child{
-                transform: translate(-120px, 110px);
-                width: 32rem;
-            }
+                #imgWhyphysical{
+                    width: 32rem;
+                    transform: translate(-100px, 100px);
+                 }
+                 #imgWhyphysicaltwo{
+                    width: 32rem;
+                    transform: translate(-90px,140px);
+                    z-index: 0;
     
-            
+                }
+
+
             
            
             
             .description-even{
                 
-              font-size: 2.2rem;
+              font-size: 2rem;
                  
                 /* background-color: #F5DBBC; */
                  
@@ -1610,6 +1616,8 @@
                 
                  
             }
+
+         
             
             .mental-improvement:last-of-type{
                 padding: 0;
@@ -1620,12 +1628,19 @@
                 width: 30rem;
                 margin-left: -3rem;
                 position: relative;
-                z-index: -2;
-                transform: translate(0px,125px);
+                z-index: 0;
+                
                 
                 
             }
+            #imgWhyMental{
+                transform: translate(-5px,120px);
+            }
+            #imgWhyMentaltwo{
+                transform: translate(20px,190px);
+            }
             
+           
             
             
             
