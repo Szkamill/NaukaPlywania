@@ -1620,7 +1620,7 @@
          
             
             .mental-improvement:last-of-type{
-                padding: 0;
+                padding-bottom: 10rem;
             }
             
             .img-even img{
@@ -1634,7 +1634,7 @@
                 
             }
             #imgWhyMental{
-                transform: translate(-5px,120px);
+                transform: translate(-0px,120px);
             }
             #imgWhyMentaltwo{
                 transform: translate(20px,190px);
@@ -1658,9 +1658,9 @@
            }
                                 
             .img-for-who2{
-                margin-left: -1rem;
-                width: 100%;
-                height: fit-content;
+                margin-left: -5rem;
+                width: 120%;
+                
             }
             
            
