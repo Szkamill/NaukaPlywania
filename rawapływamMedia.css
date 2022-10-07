@@ -1528,8 +1528,7 @@
 
 
         /* /* ////////////////////////////////////////////////////////////// */ 
-        /* do poprawy */
-        
+      
         @media(max-width:500px) {
             html{
                 font-size: 40.5%;
@@ -1903,7 +1902,267 @@
         
          
     
+
+
+
+
+
+
+
+            @media(max-width:400px) {
+                html{
+                    font-size: 40.5%;
+                   
+                }
+              
+             
+                
+                
+                
+               
+                #title-span-first-section{
+                    font-size: 3rem;
+                }
+        
+                .title-section-first p{
+                   font-size: 3rem;
+                    margin-left: -5rem;
+                    width: 40rem;
+                    line-height: 3rem;
+                    
+                }
+                .first-secion-span{
+                    margin-left: -5rem;
+                    font-size: 2.4rem;
+                    width: 40rem;
+                    line-height: 2.4rem;
+                   
+                }
+                
+              
+                .img-section-first{
+                   position: relative;
+                   z-index: -1;
+                    grid-column: 2/4;
+                    grid-row: 2/4;
+                    width: 60rem;
+                    margin-left: -5rem;
+                    
+                    
+                }
+                /*////////////////////////////////////////////////////////////////////////////*/
+                /*main section Why*/
+                
+                
+               
+                
+                .description-odd{
+                    
+        
+                  font-size: 2rem;
+                    
+                    
+                    width: 35rem; }
     
     
+                
+               
+                
+               
+                    #imgWhyphysical{
+                        width: 32rem;
+                        transform: translate(-100px, 100px);
+                     }
+                     #imgWhyphysicaltwo{
+                        width: 32rem;
+                        transform: translate(-90px,150px);
+                        z-index: 0;
+        
+                    }
     
-      
+    
+                
+               
+                
+                .description-even{
+                    
+                  font-size: 2rem;
+                     
+                    /* background-color: #F5DBBC; */
+                     
+                    width: 35rem;
+                    
+                    transform: translateX(-102px);
+                    
+                     
+                }
+    
+             
+                
+                .mental-improvement:last-of-type{
+                    padding-bottom: 10rem;
+                }
+                
+                .img-even img{
+                    border-radius: 20px;
+                    width: 30rem;
+                    margin-left: -3rem;
+                    position: relative;
+                    z-index: 0;
+                    
+                    
+                    
+                }
+                #imgWhyMental{
+                    transform: translate(-0px,160px);
+                }
+                #imgWhyMentaltwo{
+                    transform: translate(22px,260px);
+                }
+                
+               
+                
+                
+                
+                
+                
+                
+                
+               
+                
+                /* ///////////////////////////////////////////////////////////////////
+                                        section thrid */
+                
+                                
+                
+                .img-for-who3{
+                   position: relative;
+                   top: 50%;
+                   left: 50%;
+                   transform: translate(-50%,0%);
+                }
+                
+               
+                
+                     /* /////////////////////////////////////////////////////////// */
+               
+                   
+                     
+                
+                 
+                  
+                  
+                  table{
+                   
+                    /* border-radius: 10px; */
+                    width: 250px;
+                 
+                   
+                   /* background-color: darkgrey; */
+                 
+             
+                 
+                }
+                  
+                
+                /* table tr:nth-of-type(even){
+                    background-color: rgba(146, 145, 146, 0.76);
+                } */
+                
+               .operations__header {
+                 font-size: 3rem;
+                 padding-top: 4rem;
+                 font-weight: 400;
+                 
+                
+               }
+                  
+                  
+                
+                  
+                 
+                /* //////////////////////////////////////////////
+                sekcja cost
+                */
+
+              
+              
+                .cost-div{
+                    margin: 0 auto 0 auto;
+                    margin-top: 5rem;
+                    padding-top: 2rem;
+                    border: 1px solid black;
+                    width: 40rem;
+                   
+                    
+                
+                    
+                    
+                }
+               
+             
+              
+                .description-p{
+                    
+                    font-size: 3rem;
+                    font-weight: 700;
+                
+                }
+                  /* ///////////////////////////////////////////////////////// */
+                
+                
+                  .contact-section{
+                
+                      padding-top: 6rem;
+                      display: flex;
+                      flex-direction: column;
+                      gap: 10rem;
+                      margin: 0 auto;
+                  }
+                
+                  .contact{
+                      height: 70rem;
+                      margin: 0 auto;
+                      width: 40rem;
+        
+                  }
+                form{
+                    width: 30rem;
+                }
+                
+                  .btn-message{
+                      
+                    transform: translateX(90px);
+                
+                  }
+                 
+                 
+                  .mapa{
+                     
+                     width: 40rem;
+                    
+                
+                
+                     
+                     
+                  }
+                  
+                
+                }
+    
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
